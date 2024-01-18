@@ -1,0 +1,23 @@
+[package]
+name = "fcla"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Command line argument parsing"
+repository = "https://github.com/MechanicalHans/fcla"
+readme = "../README.md"
+keywords = [
+  "arg",
+  "argument",
+  "parse",
+  "parser",
+  "cli",
+]
+categories = ["command-line-interface"]
+
+[dependencies.fcla-macros]
+path = "../macros"
+version = "0.1.0"
+
+[dependencies.num]
+version = "0.4.1"

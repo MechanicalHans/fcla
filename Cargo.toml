@@ -1,0 +1,3 @@
+[workspace]
+members = ["lib", "macros"]
+resolver = "2" # 2021 crates default to resolver 2 but virtual workspaces default to resolver 1
